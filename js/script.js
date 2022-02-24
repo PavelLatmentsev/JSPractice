@@ -3,8 +3,8 @@
 
 
 function fakeStr(test) {
-    let result = test.split('')
-    let binari = result.map(function(item){
+    let arrays = test.split('')
+    let result = arrays.map(function(item){
         if(item < 5) {
             return '0'
         }
@@ -12,7 +12,8 @@ function fakeStr(test) {
             return '1'
         }
     }).join('')
-    return binari
+
+    return result
   }
  
   console.log(fakeStr('45385593107843568')); // '01011110001100111'
