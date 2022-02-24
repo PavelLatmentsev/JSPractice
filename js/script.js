@@ -17,4 +17,3 @@ function fakeStr(test) {
  
   console.log(fakeStr('45385593107843568')); // '01011110001100111'
   console.log(fakeStr('509321967506747')); // 101000111101101
-clear 
