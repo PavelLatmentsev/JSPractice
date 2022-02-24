@@ -3,17 +3,17 @@
 
 
 function fakeStr(test) {
-    let arrays = test.split('')
+    let arrays = test.split('');
     let result = arrays.map(function(item){
         if(item < 5) {
-            return '0'
+            return '0';
         }
         if (item >=5) {
-            return '1'
+            return '1';
         }
     }).join('')
 
-    return result
+    return result;
   }
  
   console.log(fakeStr('45385593107843568')); // '01011110001100111'
